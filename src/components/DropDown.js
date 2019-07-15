@@ -63,8 +63,20 @@ export default class Drop extends React.Component {
           <DropdownItem>B (Calle 21)</DropdownItem>
           <DropdownItem>B (Edison)</DropdownItem>
           <DropdownItem divider />
-          <DropdownItem disabled>Action (disabled)</DropdownItem>
+          <DropdownItem header>Linea 12</DropdownItem>
+          <DropdownItem>Don Bosco</DropdownItem>
+          <DropdownItem>V. Monona</DropdownItem>
           <DropdownItem divider />
+          <DropdownItem>101</DropdownItem>
+          <DropdownItem divider />
+          <DropdownItem>104</DropdownItem>
+          <DropdownItem divider />
+          <DropdownItem>106</DropdownItem>
+          <DropdownItem divider />
+          <DropdownItem>107</DropdownItem>
+          <DropdownItem divider />
+          <DropdownItem>110</DropdownItem>
+
         </DropdownMenu>
       </Dropdown>
     );
