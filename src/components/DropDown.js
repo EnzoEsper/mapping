@@ -64,18 +64,18 @@ export default class Drop extends React.Component {
           <DropdownItem>B (Edison)</DropdownItem>
           <DropdownItem divider />
           <DropdownItem header>Linea 12</DropdownItem>
-          <DropdownItem>Don Bosco</DropdownItem>
-          <DropdownItem>V. Monona</DropdownItem>
+          <DropdownItem onClick={() => {this.props.onClickHandle(lineaToArr('linea12'))}}>Don Bosco</DropdownItem>
+          <DropdownItem onClick={() => {this.props.onClickHandle(lineaToArr('linea13'))}}>V. Monona</DropdownItem>
           <DropdownItem divider />
-          <DropdownItem>101</DropdownItem>
+          <DropdownItem onClick={() => {this.props.onClickHandle(lineaToArr('linea14'))}}>101</DropdownItem>
           <DropdownItem divider />
-          <DropdownItem>104</DropdownItem>
+          <DropdownItem onClick={() => {this.props.onClickHandle(lineaToArr('linea15'))}}>104</DropdownItem>
           <DropdownItem divider />
-          <DropdownItem>106</DropdownItem>
+          <DropdownItem onClick={() => {this.props.onClickHandle(lineaToArr('linea16'))}}>106</DropdownItem>
           <DropdownItem divider />
-          <DropdownItem>107</DropdownItem>
+          <DropdownItem onClick={() => {this.props.onClickHandle(lineaToArr('linea17'))}}>107</DropdownItem>
           <DropdownItem divider />
-          <DropdownItem>110</DropdownItem>
+          <DropdownItem onClick={() => {this.props.onClickHandle(lineaToArr('linea18'))}}>110</DropdownItem>
 
         </DropdownMenu>
       </Dropdown>
