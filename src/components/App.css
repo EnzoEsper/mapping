@@ -24,4 +24,6 @@ body {
   bottom: 10px;
   left: 10px;
   z-index: 999;
+  padding-left: 2px;
+  padding-right: 2px;
 }
